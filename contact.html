@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/contact.css">
+  
+  
+  
+  
+  
+</head>
+<body>
+  <header>
+    <nav class="nav-items">
+      <a href="./index.html" class="navbar-buttons"> &larr;Home Page</a>
+      <a href="#social" class="navbar-buttons"> Social Accounts</a>
+    
+    </nav>
+  </header>
+  <main>
+    <div class="contact-location">
+      <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12028.917686950677!2d28.952202!3d41.0858337!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7ade6455895%3A0x8162d5a16546b5e2!2zSGFsacOnIMOcbml2ZXJzaXRlc2k!5e0!3m2!1str!2str!4v1704471917907!5m2!1str!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <div class="address-contact">
+        <h1>Location</h1>
+        
+        <address>Haliç Üniversitesi, 5. Levent Mahallesi, 15 Temmuz Şehitler Caddesi, No: 14/12 34060 Eyüpsultan/İSTANBUL</address>
+      </div>
+      
+      
+    
+    </div>
+    <div class="contact-form">
+      <h1 class="contact-form-header">Contact Form</h1>
+      <form id="message-form" class="form-container">
+        <label for="email">Email:</label>
+        <input type="email" id="email"  required>
+    
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+    
+        <label id="message-text" for="message">Message:</label>
+        <textarea rows="4" id="message" required></textarea>
+        
+        <div class="buttons-form">
+          <button class="submit-button" value="submit" type="submit">Submit</button>
+          <button class="clear-button" value="clear" type="button" id="clear-button">Clear</button>
+        </div>
+        
+      </form>
+      
+    </div>
+  </main>
+ <footer>
+  <div class="contact-text">
+    
+    <div id="social" class="social-media">
+      <a href="https://twitter.com/tremirhankaya" target="_blank"><i id="twitter" class="fa-brands fa-x-twitter"></i> </a>
+      <a href="https://www.instagram.com/" target="_blank"><i id="instagram" class="fa-brands fa-instagram"></i> </a>
+      <a href="https://www.linkedin.com/in/emirhan-kaya-795664253/" target="_blank"><i id="linkedin" class="fa-brands fa-linkedin"></i> </a>
+      <a href="mailto:tremirhankaya@gmail.com" target="_blank"><i id="gmail" class="fa-regular fa-envelope"></i></i> </a>
+      <a href="#top"><img src="./images/upward.png" alt="" width="170px"></a>
+
+      
+
+    </div>
+    
+ </footer>
+  
+</body>
+<script src="https://kit.fontawesome.com/bc90f1f0b2.js" crossorigin="anonymous"></script>
+<script>
+  document.getElementById('message-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // formu göndermeyin
+
+    var email = document.getElementById('email').value;
+    var name = document.getElementById('name').value;
+    var messageText = document.getElementById('message').value;
+
+    if (email.trim() === '' || name.trim() === '' || messageText.trim() === '') {
+        alert('Please fill out all the fields');
+        return;
+    }
+
+    alert('Your message has been sent: \nEmail: ' + email + '\nName: ' + name + '\nMessage: ' + messageText);
+});
+document.getElementById('clear-button').addEventListener('click', function() {
+    document.getElementById('message-form').reset();
+});
+
+  
+</script>
+</html>

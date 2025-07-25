@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+body{
+  font-family: 'Abhaya Libre', serif;
+ background-color:  #fff;;
+}
+html{
+  scroll-behavior: smooth;
+}
+article{
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  color: rgb(255, 255, 255);
+  display: inline-block;
+ 
+  
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  color: #ffffff;
+  background-image: url('../images/Games/headerbackground.jpg');
+  background-size:contain;
+  background-repeat: repeat-x;
+  
+  text-align: center;
+  height: 120px;
+ 
+}
+nav{
+  background-color: #000802;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+ padding: 12px 12px;
+ transition: opacity 0.18s;
+ font-size: x-large;
+
+}
+nav a:hover{
+  opacity: 0.6;
+}
+nav a:active{
+  opacity: 0.2;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.games{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url('../images/Games/gamesbackground.avif');
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  
+  
+  
+}
+.recently-header{
+
+  font-size: 2.4em;
+  font-family: 'Press Start 2P', system-ui;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  -webkit-text-stroke: 1px rgb(255, 22, 61);
+  
+}
+.games-news{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+.game-1,.game-2{
+  height: 500px;
+  margin: 8px 8px;
+  border-radius: 10px;
+  width: 1000px;
+  text-align: center;
+ 
+  
+}
+.games-news-p{
+  font-size: 1.3em;
+  color: white;
+  
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.game-1{
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+ background-image: url('../images/Games/daysgone.webp');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ margin-right: 20px;
+ transition: transform 0.3s;
+ 
+
+ 
+
+}
+.game-2{
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-image: url('../images/Games/dishonered.avif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 20px;
+  transition: transform 0.3s;
+ 
+ 
+  
+}
+.game-1:hover{
+  transform: scale(0.92);
+}
+.game-2:hover{
+  transform: scale(0.92);
+}
+.design-element-1{
+  width: 100%;
+  height: 1dvh;
+  background: linear-gradient(to right, #525151, #f1f1f1, #4e4c4c);
+  margin-top: 0.01px;
+  margin-bottom: 0.01px;
+ 
+}
+.series{
+ justify-content: space-around;
+ background-image: url('../images/movies/moviesbackground.jpg');
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: contain;
+  margin-bottom: 50px;
+  
+ 
+}
+.series-movies-header{
+  text-align: center;
+  
+  
+  
+}
+.series-names{
+  font-family: 'Abhaya Libre', serif;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.series-movies{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+
+  
+  
+}
+.series,.movies{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.series-1,.series-2{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  transition: scale 0.50s;
+  cursor: pointer;
+}
+.series-1:hover,.series-2:hover{
+  scale:1.02;
+}
+.series-p{
+text-align: left;
+font-weight: bold;
+}
+.read-more-btn{
+  text-align: left;
+}
+.series-links{
+  text-decoration: none;
+}
+.series-links:hover{
+  text-decoration: underline;
+}
+
+.movies{
+  background-image: url('./images/movies/moviesbackground.jpg');
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: contain;
+  margin-bottom: 50px;
+  
+  
+}
+.movies-1,.movies-2{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  transition: scale 0.50s;
+  cursor: pointer;
+}
+
+.movies-1:hover,.movies-2:hover{
+  scale:1.02;
+}
+.movies-p{
+text-align: left;
+font-weight: bold;
+}
+
+.movies-links{
+  text-decoration: none;
+}
+.movies-links:hover{
+  text-decoration: underline;
+}
+
+.books{
+ 
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-between;
+  font-family: 'Abhaya Libre', serif;
+  
+  
+  
+}
+.book-1,.book-2,.book-3,.book-4{
+ max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 16px;
+ font-weight: 500;
+ 
+}
+.books img{
+  transition: transform 0.45s ;
+}
+.books img:hover{
+ transform: scale(1.05);
+ 
+}
+.books p{
+  margin-top: 50px;
+  padding-top:15px;
+  transition: transform 0.45s ;
+  
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+.books p:hover{
+  transform: scale(1.10);
+  border-style:inherit;
+}
+.books-header{
+  
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 40px;
+margin-bottom: 40px;
+ font-weight: bolder;
+ font-size: 40px;
+ color: #ffffff;
+}
+.section-2{
+  background-image: url('./images/books/bookbackground.png.jpg');
+  
+  background-position: center;
+  background-repeat: repeat-x;
+  color: rgb(0, 0, 0);
+}

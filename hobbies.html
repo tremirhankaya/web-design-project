@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/hobbies.css">
+  <link rel="stylesheet" href=".styles/style.css">
+  <title>Hobbies</title>
+</head>
+<body>
+  <div class="content">
+  <header>
+    <h1 class="logo">Hobbies</h1>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="#games">Games</a>
+      <a href="#series">Series</a>
+      <a href="#movies">Movies</a>
+      <a href="#book-recommendations">Books</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div id="games" class="games">
+      <h1 class="recently-header">Recently Played</h1>
+    <section class="games-news">
+      <div class="game-1">
+        <h1 class="games-news-p">Days Gone: Survive as Deacon St. John in a post-apocalyptic world filled with zombie-like creatures</h1>
+      </div>
+      <div class="game-2">
+        <h1 class="games-news-p">Dishonored: Embark on a stealthy journey as Corvo Attano in a dystopian city filled with intrigue and supernatural elements</h1>
+      </div>
+    </div>
+    <div class="design-element-1"></div>
+    
+    <div class="series-movies">
+      <h1 id="series" class="series-movies-header">Series</h1>
+      <div  class="series">
+        <div  class="series-1" onclick="redirectToSite(1)">
+          
+          <img class="series-pictures" src="./images/movies/theboys.jpg" alt="">
+          <a href="#" class="series-links"><H1 class="series-names">The Boys</H1></a>
+          
+          <p class="series-p">A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.</p>
+          
+        </div>
+        <div class="series-2" onclick="redirectToSite(2)">
+          <img class="series-pictures" src="./images/movies/rickandmorty.jpeg" alt="">
+          <a href="" class="series-links">
+            <H1 class="series-names" >Rick and Morty</H1>
+          </a>
+          
+          
+          <p class="series-p">The fractured domestic lives of a nihilistic mad scientist and his anxious grandson are further complicated by their inter-dimensional misadventures.</p>
+          
+        </div>
+
+      </div>
+      <h1 class="series-movies-header">Movies</h1>
+      <div id="movies" class="movies">
+        
+        <div class="movies-1" onclick="redirectToSite(3)">
+          <img class="movies-pictures" src="./images/movies/themartian.jpeg" alt="">
+          <a href="#" class="movies-links"><H1 class="movies-names">The Martian</H1></a>
+          
+          <p class="movies-p">An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive and can survive until a potential rescue.</p>
+
+        </div>
+        <div class="movies-2" onclick="redirectToSite(4)"> 
+          <img class="movies-pictures" src="./images/movies/A-Beautiful-Mind.jpg" alt="">
+          <a href="#" class="movies-links"><H1 class="movies-names">A Beautiful Mind</H1></a>
+          
+          <p class="movies-p">After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.</p>
+
+        </div>
+
+
+      </div>
+
+    </div>
+    </section>
+    
+    <div class="design-element-1"></div>
+    <section class="section-2">
+    <h1 id="book-recommendations" class="books-header">Book Recommendations</h1>
+    <section class="books">
+      <div class="book-1">
+        <img src="./images/books/bilgiylesohbet.jpg" alt="">
+        <p>
+          The texts of Prof. Şengör's writings published in various magazines and newspapers for over twenty years, as well as the transcripts of his speeches delivered on different platforms, have been compiled in the book
+        </p>
+        
+      </div>
+      <div class="book-2">
+        <img src="./images/books/safsatalaransiklopedisi.jpg" alt="">
+        <p>
+          Safsatalar Ansiklopedisi" consists of 100 reviews, covering a wide range of topics such as logic, belief, literature, love, religion, mythology, revenge, and more.
+        </p>
+
+      </div>
+      <div class="book-3">
+        <img src="./images/books/ekonomi.jpg" alt="">
+        <p>
+          Mahfi Eğilmez, one of Turkey's most esteemed economists, presents the economic journey spanning from prehistoric times to the present day in his book titled "Dünya Ekonomisi Tarihsel Süreç İçinde" (World Economy in Historical Process). The author chronologically unfolds the economic developments for the readers.
+        </p>
+
+      </div>
+      
+    </section>
+   
+
+    </section>
+  </main>
+  <div class="footer-3">
+    <a href="#top"> <img src="./images/upward.png" alt="" class="scrool-top" width="150"></a>
+    
+  </div>
+</div>
+  
+</body>
+<script>
+  function redirectToSite(x){
+    if(x==1){
+      window.open('https://www.primevideo.com/detail/The-Boys/0KRGHGZCHKS920ZQGY5LBRF7MA/?_encoding=UTF8&language=tr_TR','blank');
+    }else if(x==2){
+        window.open('https://www.netflix.com/title/80014749','_blank')
+    }else if(x==3){
+      windows.open('https://tv.apple.com/tr/movie/marte-the-martian/umc.cmc.4kluf2kwyi1arpo7yult1pt58?action=play','_blank')
+    }else if(x==4){
+      window.open('https://tv.apple.com/tr/movie/a-beautiful-mind/umc.cmc.2iqk0c0jh9ocfk2jtv2yda0k1?action=play','_blank')
+    }
+    
+  }
+</script>
+</html>

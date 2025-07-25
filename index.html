@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Black Header</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="https://kit.fontawesome.com/bc90f1f0b2.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+ 
+</head>
+<body>
+
+  <header>
+    <div class="header">
+      
+      <nav class="nav-items">
+        <a href="#" class="navbar-buttons">Home</a>
+        <a href="./articles/articles.html" class="navbar-buttons">Articles</a>
+        <a href="./hobbies.html" class="navbar-buttons">Hobbies</a>
+        <a href="#about" class="navbar-buttons">About</a>
+        <a href="./corporate.html" class="navbar-buttons">Corporate</a>
+        <a href="./contact.html" class="navbar-buttons">Contact</a>
+        
+      </nav>
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search...">
+        <button class="search-button"><i class="fas fa-search"></i></button>
+    </div>
+     
+    </div>
+  </header>
+  <h1 class="news-recommend-head">What's new</h1>
+
+  <main>
+    <article>
+      
+    <div class="contents">     <!-- flex-element-1 -->
+      
+     <div class="content-1" onclick="redirectToSite(1)">
+      <p class="news-headers">NASA Sets Coverage for ULA, Astrobotic Artemis Robotic Moon Launch</p>
+     </div>
+     <div class="content-2" onclick="redirectToSite(2)">
+      
+      <p class="news-headers">Türkiye's 1st spacecraft to travel to moon in 2026</p>
+     </div>
+     <div class="content-3" onclick="redirectToSite(3)">
+      <p class="news-headers">Microsoft introduces the Copilot AI.</p></div>
+     <div class="content-4" onclick="redirectToSite(4)">
+      <p class="news-headers">US plans $162 million award to Microchip Technology to boost production</p>
+    </div>
+  
+    </div>  
+    <div class="design-element-1"></div> <!-- flex-element-2 -->
+    <div><h1 class="article-header">Articles</h1></div>
+    <div class="articles-p1">
+      <div class="articles-part"><!-- flex-element-3 -->
+      <div class="article">
+        <h1>Rethinking Homework in the Age of Artificial Intelligence</h1>
+        <p class="article-1">The evolution of natural language processing techniques has led to the development of
+          advanced conversational tools such as ChatGPT, capable of assisting users with a
+          variety of activities. Media attention has centered on ChatGPT’s potential impact, policy
+          implications, and ethical ramifications, particularly in the context of education.</p>
+        <a href="./articles/article-1.html" class="read-more-btn">Read More</a>
+
+      </div>
+      
+      <div class="article">
+        <h1>AI and Jobs: Evidence From Online Vacancies</h1>
+        <p class="article-2">The last decade has witnessed rapid advances in artificial intelligence (AI) based on new machine learning techniques and the availability of massive data sets.</p>
+        <a href="./articles/article-2.html" class="read-more-btn">Read More</a>
+      
+      </div>
+    </div>
+    <div class="articles-p2">
+      <div class="articles-part"><!-- flex-element-3 -->
+        <div class="article">
+          <h1>Social Robot’s Benefits and Harms</h1>
+          <p class="article-3">In the last century, the importance of robots in our lives has increased. Human technologies have gotten better since humans learned to exploit machines. Based on that
+            “The first works devoted to the connection between human intelligence and machines occurred in the middle of the twentieth century.”(Shourmasti et al., 2021).</p>
+          <a href="./articles/article-3.html" class="read-more-btn">Read More</a>
+  
+        </div>
+        
+        <div class="article">
+          <h1>The effectiveness of teaching in a foreign language.</h1>
+          <p class="article-4">The effectiveness of teaching academic courses such as mathematics and science in a foreign language has been investigated by several international studies in the literature. Even though the studies conducted have brought up contradictory results, most of them reveal that learning academic courses rhrough a foreign language medium may pose conceptual, linguistic and psyhological problems.</p>
+          <a href="./articles/article-4.html" class="read-more-btn">Read More</a>
+        
+        </div>
+      </div>
+     
+    </div> 
+    <div class="design-element-1"></div>
+<div class="hobbies">
+  <div class="gallery-header">
+    <h1>Pictures of the Week</h1>
+  </div>
+  <div class="container mt-5">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/pic1week.jpg" class="d-block w-100" alt="Slide 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Yavuz Sultan Selim Bridge</h5>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/pic2week.jpg" class="d-block w-100" alt="Slide 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Norway</h5>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/pic3week.jpg" class="d-block w-100" alt="Slide 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Father of the Turks</h5>
+            
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  </div>
+<div>
+  
+</div>
+    
+  </article>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div id="about" class="footer-1">
+        <div class="contact-text">
+          <h1>About & Contact</h1>
+          <div class="social-media">
+            <a href="https://twitter.com/tremirhankaya" target="_blank"><i id="twitter" class="fa-brands fa-x-twitter"></i> </a>
+            <a href="https://www.instagram.com/" target="_blank"><i id="instagram" class="fa-brands fa-instagram"></i> </a>
+            <a href="https://www.linkedin.com/in/emirhan-kaya-795664253/" target="_blank"><i id="linkedin" class="fa-brands fa-linkedin"></i> </a>
+            <a href="mailto:tremirhankaya@gmail.com" target="_blank"><i id="gmail" class="fa-regular fa-envelope"></i></i> </a>
+
+          </div>
+        </div>
+        <form class="form-container">
+          <label for="email">Email:</label>
+          <input type="email"  required>
+      
+          <label for="name">Name:</label>
+          <input type="text"  required>
+      
+          <label for="message">Message:</label>
+          <textarea rows="4" required></textarea>
+      
+          <button type="submit">Submit</button>
+        </form>
+        
+      </div>
+      <div class="design-element-1"></div>
+      
+      <div class="footer-3">
+        <a href="#top"> <img src="./images/upward.png" alt="" class="scrool-top" width="150"></a>
+        
+      </div>
+
+    </div>
+  </footer>
+  
+
+</body>
+<script>
+
+  function redirectToSite(contentNumber) {
+      
+        var redirectLink ;
+        if(contentNumber==1){
+          redirectLink= "https://www.nasa.gov/news-release/nasa-sets-coverage-for-ula-astrobotic-artemis-robotic-moon-launch/";
+        }else if(contentNumber==2){
+          redirectLink="https://www.aa.com.tr/en/turkiye/turkiyes-1st-spacecraft-to-travel-to-moon-in-2026/3047053#:~:text=T%C3%BCrkiye%20aims%20to%20be%20among,a%20presence%20on%20the%20moon&text=T%C3%BCrkiye%20aims%20to%20complete%20all,launch%20the%20vehicle%20into%20space."
+        }else if(contentNumber==3){
+          redirectLink = "https://blogs.windows.com/windowsexperience/2024/01/04/introducing-a-new-copilot-key-to-kick-off-the-year-of-ai-powered-windows-pcs/";
+
+        }else if(contentNumber==4){
+        redirectLink = "https://www.nasa.gov/news-release/nasa-sets-coverage-for-ula-astrobotic-artemis-robotic-moon-launch/";
+        }
+        
+        window.open(redirectLink,'_blank');
+
+
+
+
+
+  }
+  
+ 
+
+</script>
+
+</html>
+

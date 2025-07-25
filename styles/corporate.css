@@ -1,0 +1,48 @@
+.nav-items a{
+  text-decoration: none;
+}
+.part-1{
+  flex-direction: row;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  background-color: rgb(180, 174, 174)
+ 
+  
+  
+}
+.part-1 img{
+  width: 250px;
+}
+.personal-information{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  justify-content: center;
+ 
+}
+.bold-text{
+  font-weight: bolder;
+}
+.projects{
+  flex-direction: column;
+  display: flex;
+  
+}
+.projects h1{
+  padding-left: 30px;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+.projects li{
+  margin-top: 27px;
+  font-size: 20px;
+}
+.part-2{
+  background-color: rgb(180, 174, 174)
+}
+.upward{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
